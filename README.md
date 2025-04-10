@@ -33,7 +33,7 @@ Test Scripts folder:
 
 ## Requirements
 
-PostgreSQL database.
+[PostgreSQL database](https://www.postgresql.org/download/)
 
 ## Usage
 
@@ -55,4 +55,4 @@ pgsql -U <username> -d <database> -f "q2_run_test.sql"
 
 For a production version, the SQL function can be parallelized to allow processing for multiple unit numbers of different programs.
 
-For deployment, q2_run_init.sql script should be run in the production server's respective database.
+For deployment, q2_run_init.sql script should be run in the production PostgreSQL server's respective database.
