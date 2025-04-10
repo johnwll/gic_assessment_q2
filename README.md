@@ -40,7 +40,7 @@ Test Scripts folder:
 Run initialization script:
 
 ```sh
-pgsql -U <username> -d <database> -f "q2_run_init.sql"
+psql -U <username> -d <database> -f "q2_run_init.sql"
 ```
 
 ## Unit Test
@@ -48,7 +48,7 @@ pgsql -U <username> -d <database> -f "q2_run_init.sql"
 Run test script:
 
 ```sh
-pgsql -U <username> -d <database> -f "q2_run_test.sql"
+psql -U <username> -d <database> -f "q2_run_test.sql"
 ```
 
 ## Production Notes
